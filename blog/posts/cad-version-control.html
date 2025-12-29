@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAD Version Control System - Bec on the Road</title>
+    <link rel="stylesheet" href="../blog-style.css">
+    <style>
+        .post-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .post-header {
+            margin-bottom: 40px;
+        }
+        
+        .post-title {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 32px;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+        
+        .post-meta {
+            display: flex;
+            gap: 20px;
+            font-size: 12px;
+            color: #808080;
+            margin-bottom: 30px;
+        }
+        
+        .post-meta .category {
+            padding: 4px 12px;
+            background: #ff6b6b;
+            color: #fff;
+            border-radius: 2px;
+        }
+        
+        .post-body {
+            font-family: 'Space Mono', monospace;
+            line-height: 1.8;
+            color: #535353;
+        }
+        
+        .post-body h2 {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 20px;
+            margin: 40px 0 20px;
+            line-height: 1.4;
+        }
+        
+        .post-body h3 {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 30px 0 15px;
+        }
+        
+        .post-body p {
+            margin-bottom: 20px;
+        }
+        
+        .post-body ul, .post-body ol {
+            margin: 20px 0 20px 30px;
+        }
+        
+        .post-body li {
+            margin-bottom: 10px;
+        }
+        
+        .post-body code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 2px;
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+        }
+        
+        .github-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #535353;
+            color: #f7f7f7;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 30px 0;
+            transition: all 0.2s;
+            border: 3px solid #535353;
+        }
+        
+        .github-link:hover {
+            background: #ff6b6b;
+            border-color: #ff6b6b;
+            transform: translateX(4px);
+        }
+        
+        .tech-stack {
+            background: #f0f0f0;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #ff6b6b;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #535353;
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .back-link:hover {
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../index.html" class="home-link">← Back to Blog</a>
+    </nav>
+    
+    <div class="post-content">
+        <div class="post-header">
+            <h1 class="post-title">CAD Version Control System</h1>
+            <div class="post-meta">
+                <span class="date">November 2024</span>
+                <span class="category">Engineering</span>
+            </div>
+        </div>
+        
+        <div class="post-body">
+            <p>
+                Git for CAD files. Branch designs, merge geometry, resolve conflicts with 3D diffs. Built with Go, Vue.js, PostgreSQL, and MinIO.
+            </p>
+            
+            <a href="https://github.com/rhblitstein/cad-version-control" class="github-link" target="_blank">View on GitHub →</a>
+            
+            <h2>What It Does</h2>
+            <p>
+                This system brings Git-like version control to CAD workflows. Engineers can branch designs for parallel development, commit versions with full history tracking, and merge changes with visual 3D diff viewers - all the things you'd expect from version control, but for physical geometry instead of text files.
+            </p>
+            
+            <p>
+                The key feature is the 3D diff viewer: side-by-side comparison of CAD files with synchronized camera controls. When you're reviewing whether to merge a design change, you can literally see what changed in 3D space. No more guessing if that hole moved 2mm or 20mm.
+            </p>
+            
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Git-like branching model:</strong> DAG-based commits with parent linkage and branch protection via merge requests</li>
+                <li><strong>3D visualization:</strong> STL file rendering with Three.js, wireframe/solid toggle, and synchronized diff viewing</li>
+                <li><strong>Smart file storage:</strong> Content-addressable storage with SHA-256 deduplication - same file uploaded twice only stores once</li>
+                <li><strong>Merge request workflow:</strong> Comment threads, approval system, automatic conflict detection</li>
+                <li><strong>Performance optimizations:</strong> Redis caching for branch HEADs, lazy loading for file lists, optimistic UI updates</li>
+            </ul>
+            
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <p><strong>Backend:</strong></p>
+                <ul>
+                    <li><strong>Go 1.21+</strong> - High-performance API server with Chi router</li>
+                    <li><strong>PostgreSQL 15</strong> - ACID-compliant version history storage</li>
+                    <li><strong>MinIO</strong> - S3-compatible object storage for CAD files</li>
+                    <li><strong>Redis</strong> - Caching layer for performance</li>
+                    <li><strong>RabbitMQ</strong> - Message queue for async operations</li>
+                </ul>
+                <p><strong>Frontend:</strong></p>
+                <ul>
+                    <li><strong>Vue 3</strong> - Composition API with Pinia state management</li>
+                    <li><strong>Three.js</strong> - 3D rendering for STL files</li>
+                    <li><strong>Tailwind CSS</strong> - Because writing CSS is for people with more patience than me</li>
+                </ul>
+            </div>
+            
+            <h2>The Story</h2>
+            <p>
+                I built this to understand how Git actually works under the hood - not just the commands, but the data structures and algorithms that make distributed version control possible. Reading about DAGs and content-addressable storage is one thing. Building your own version control system from scratch is another.
+            </p>
+            
+            <p>
+                The CAD angle made it more interesting than yet another todo app. Plus, it gave me an excuse to dive into 3D geometry handling and Three.js, which I'd been wanting to learn properly.
+            </p>
+            
+            <h2>Technical Highlights</h2>
+            <p>
+                The architecture follows a clean separation: Go API server handles all version control logic, PostgreSQL stores metadata in a proper relational schema (projects, branches, commits, files, merge requests), MinIO stores the actual CAD files using content-addressable storage, and Redis caches frequently-accessed data like branch HEADs.
+            </p>
+            
+            <p>
+                Conflict detection is currently checksum-based - if the same file path has different SHA-256 hashes in the source and target branches, it's a conflict. Production would add geometric analysis to quantify changes (vertices moved, faces added/removed) and enable intelligent auto-merging for non-overlapping modifications.
+            </p>
+            
+            <p>
+                The 3D diff viewer was particularly fun to build. It uses Two Three.js scenes rendered side-by-side, with synchronized OrbitControls so rotating one view rotates both. Simple concept, surprisingly satisfying to use.
+            </p>
+            
+            <h2>Design Decisions</h2>
+            <p>
+                Some choices were pragmatic for the demo scope: single Postgres instance instead of read replicas, manual conflict resolution instead of geometric merging, no authentication layer. Others were architectural decisions I'd keep in production: content-addressable storage for deduplication, DAG-based commit structure, separation of file identity from file content.
+            </p>
+            
+            <p>
+                The whole system is Dockerized for easy deployment and could scale horizontally with minimal changes - add a load balancer in front of multiple API servers, use Postgres read replicas for queries, and you're most of the way there.
+            </p>
+            
+            <h2>What I Learned</h2>
+            <p>
+                This project forced me to really understand Git's internals - not just how to use it, but how it works under the hood. Building a version control system from scratch makes you appreciate how elegant Git's DAG model is for representing history.
+            </p>
+            
+            <p>
+                I also got deep into Three.js and 3D rendering concepts I'd only touched superficially before. Turns out rendering wireframes and handling camera synchronization across multiple viewports is its own rabbit hole.
+            </p>
+            
+            <p>
+                Most importantly: scope management. This could have been a six-month project if I tried to build every feature. Knowing what to cut, what to simplify, and what to document as "production would need X" is its own skill.
+            </p>
+            
+            <a href="https://github.com/rhblitstein/cad-version-control" class="github-link" target="_blank">View Project on GitHub →</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Built with ❤️ and pixel art</p>
+    </footer>
+</body>
+</html>
