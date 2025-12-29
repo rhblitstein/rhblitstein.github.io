@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bec's Trail Runner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="score">0 mi</div>
+            <div id="high-score">Best: 0 mi</div>
+        </div>
+        <div id="start-screen" class="screen">
+            <h1>TRAIL RUNNER</h1>
+            <p class="subtitle">Press SPACE to run</p>
+            <p class="hint">Press ESC for blog</p>
+        </div>
+        <div id="game-over-screen" class="screen hidden">
+            <h2>Run Complete!</h2>
+            <p id="final-score">0 mi</p>
+            <p class="retry">Press SPACE to retry</p>
+            <p class="hint">Press ESC for blog</p>
+        </div>
+        <button id="blog-btn" aria-label="Go to blog">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
+                <path d="M9 7h6M9 11h6M9 15h4"/>
+            </svg>
+        </button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

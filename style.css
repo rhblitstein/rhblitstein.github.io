@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f7f7f7;
+    font-family: 'Press Start 2P', monospace;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#game-container {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 400px;
+    background: #f7f7f7;
+    border: 4px solid #535353;
+    box-shadow: 0 8px 0 #535353;
+}
+
+#gameCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+#ui-overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    color: #535353;
+    font-size: 14px;
+    line-height: 1.8;
+    pointer-events: none;
+    z-index: 10;
+}
+
+#score, #high-score {
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(247, 247, 247, 0.95);
+    color: #535353;
+    z-index: 20;
+}
+
+.screen.hidden {
+    display: none;
+}
+
+.screen h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.screen h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.screen p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.screen .subtitle {
+    font-size: 14px;
+    color: #808080;
+    animation: blink 1.5s step-start infinite;
+}
+
+.screen .retry {
+    font-size: 14px;
+    color: #808080;
+    margin-top: 20px;
+}
+
+.screen .hint {
+    font-size: 10px;
+    color: #a0a0a0;
+    margin-top: 30px;
+}
+
+#final-score {
+    font-size: 24px;
+    color: #ff6b6b;
+    margin: 20px 0;
+}
+
+#blog-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #535353;
+    color: #f7f7f7;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    z-index: 30;
+}
+
+#blog-btn:hover {
+    background: #ff6b6b;
+    transform: scale(1.1);
+}
+
+#blog-btn:active {
+    transform: scale(0.95);
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+    #game-container {
+        height: 300px;
+        border: 3px solid #535353;
+        box-shadow: 0 6px 0 #535353;
+    }
+    
+    .screen h1 {
+        font-size: 28px;
+    }
+    
+    .screen h2 {
+        font-size: 20px;
+    }
+    
+    .screen p {
+        font-size: 12px;
+    }
+    
+    #ui-overlay {
+        font-size: 10px;
+        top: 10px;
+        right: 10px;
+    }
+}

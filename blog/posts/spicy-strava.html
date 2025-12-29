@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy Strava 🔥 - Bec's Blog</title>
+    <link rel="stylesheet" href="../blog-style.css">
+    <style>
+        .post-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .post-header {
+            margin-bottom: 40px;
+        }
+        
+        .post-title {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 32px;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+        
+        .post-meta {
+            display: flex;
+            gap: 20px;
+            font-size: 12px;
+            color: #808080;
+            margin-bottom: 30px;
+        }
+        
+        .post-meta .category {
+            padding: 4px 12px;
+            background: #ff6b6b;
+            color: #fff;
+            border-radius: 2px;
+        }
+        
+        .post-body {
+            font-family: 'Space Mono', monospace;
+            line-height: 1.8;
+            color: #535353;
+        }
+        
+        .post-body h2 {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 20px;
+            margin: 40px 0 20px;
+            line-height: 1.4;
+        }
+        
+        .post-body h3 {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 30px 0 15px;
+        }
+        
+        .post-body p {
+            margin-bottom: 20px;
+        }
+        
+        .post-body ul, .post-body ol {
+            margin: 20px 0 20px 30px;
+        }
+        
+        .post-body li {
+            margin-bottom: 10px;
+        }
+        
+        .post-body code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 2px;
+            font-family: 'Space Mono', monospace;
+            font-size: 14px;
+        }
+        
+        .github-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #535353;
+            color: #f7f7f7;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 30px 0;
+            transition: all 0.2s;
+            border: 3px solid #535353;
+        }
+        
+        .github-link:hover {
+            background: #ff6b6b;
+            border-color: #ff6b6b;
+            transform: translateX(4px);
+        }
+        
+        .tech-stack {
+            background: #f0f0f0;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #ff6b6b;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #535353;
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .back-link:hover {
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../index.html" class="home-link">← Back to Blog</a>
+    </nav>
+    
+    <div class="post-content">
+        <div class="post-header">
+            <h1 class="post-title">Spicy Strava 🔥</h1>
+            <div class="post-meta">
+                <span class="date">December 2024</span>
+                <span class="category">Engineering</span>
+            </div>
+        </div>
+        
+        <div class="post-body">
+            <p>
+                Get roasted for your Strava activities. Because sometimes you need honest feedback about that "easy recovery run."
+            </p>
+            
+            <a href="https://github.com/rhblitstein/stravaroaster" class="github-link" target="_blank">View on GitHub →</a>
+            
+            <h2>What It Does</h2>
+            <p>
+                Spicy Strava is a native iOS app that connects to your Strava account and generates brutally honest roasts for your activities. Whether it's your pace, distance, elevation, stoppage time, or lack of kudos - nothing is safe from commentary.
+            </p>
+            
+            <p>
+                Choose your spice level from Mild to 🌶️🌶️🌶️ and get feedback that ranges from gentle encouragement to savage roasts. The app creates "Activity Wrapped" style presentations with swipeable slides breaking down every aspect of your workout - with appropriately spicy commentary for each metric.
+            </p>
+            
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>OAuth Integration:</strong> Secure Strava login flow</li>
+                <li><strong>Infinite Scroll Activity Feed:</strong> Browse all your activities with stats at a glance</li>
+                <li><strong>Customizable Roasts:</strong> Set different spice levels for different activity types (runs, rides, swims, hikes)</li>
+                <li><strong>Activity Wrapped:</strong> Full-screen swipeable slides for individual activities with stats breakdowns, stoppage time roasts, elevation commentary, social stats, and segment achievements</li>
+                <li><strong>Aggregate Wrapped:</strong> Weekly/Monthly/Yearly/All-Time performance summaries showing your best and worst across all activities</li>
+                <li><strong>Auto-Post to Strava:</strong> Optionally append roasts directly to your activity descriptions</li>
+                <li><strong>Share:</strong> Export roasts as images for Instagram stories</li>
+                <li><strong>Roast Caching:</strong> Roasts are saved per activity and spice level for consistency</li>
+            </ul>
+            
+            <div class="tech-stack">
+                <h3>Tech Stack</h3>
+                <ul>
+                    <li><strong>SwiftUI:</strong> Native iOS interface with modern declarative UI</li>
+                    <li><strong>Strava API:</strong> OAuth authentication and activity data integration</li>
+                    <li><strong>URLSession:</strong> Custom networking layer</li>
+                    <li><strong>@AppStorage:</strong> Persistent settings and user preferences</li>
+                </ul>
+            </div>
+            
+            <h2>The Story</h2>
+            <p>
+                This project came from a core belief: you can take the things you do very seriously (like running - I take it seriously!) but the minute you start taking yourself seriously, you've lost the plot. Spicy Strava is my way to fight back against taking myself too seriously with my activities - running, riding, boating, all of it.
+            </p>
+            
+            <p>
+                I built this as my first real SwiftUI project, diving into iOS development while simultaneously getting roasted for my own running stats. The app uses a mock roast service currently, but it's architected to easily swap in real AI (OpenAI, Anthropic, or Together.ai) when I decide my activities deserve truly personalized savage commentary.
+            </p>
+            
+            <h2>Technical Highlights</h2>
+            <p>
+                The architecture separates concerns cleanly: <code>StravaService</code> handles all API integration, <code>MockRoastService</code> generates the roasts based on activity stats and chosen spice level, and <code>RoastCache</code> manages persistence using composite keys (activityId + spiceLevel). This makes it easy to swap the mock service for real AI without touching the rest of the codebase.
+            </p>
+            
+            <p>
+                The Activity Wrapped slides were particularly fun to build - implementing swipeable full-screen views that progressively reveal stats with appropriately timed roasts. Each slide focuses on a different aspect of your workout: basic stats, pace analysis, stoppage time, elevation, social engagement, segments, and a final verdict.
+            </p>
+            
+            <h2>What's Next</h2>
+            <p>
+                Future plans include real AI integration for truly personalized roasts, weekly/monthly email digests of your shame, leaderboards for worst pace and most stopped time, friend comparisons (because misery loves company), and support for more activity types beyond runs and rides.
+            </p>
+            
+            <p>
+                The code is open source on GitHub if you want to fork it and roast your own activities. Just don't blame me when it accurately points out that your "tempo run" was slower than most people's easy pace.
+            </p>
+            
+            <a href="https://github.com/rhblitstein/stravaroaster" class="github-link" target="_blank">View Project on GitHub →</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Built with ❤️ and pixel art</p>
+    </footer>
+</body>
+</html>
