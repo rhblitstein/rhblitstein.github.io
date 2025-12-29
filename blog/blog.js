@@ -1,3 +1,20 @@
+// Sort posts by date on load
+function sortPostsByDate() {
+    const postsContainer = document.querySelector('.posts');
+    const posts = Array.from(document.querySelectorAll('.post-preview'));
+    
+    posts.sort((a, b) => {
+        const dateA = new Date(a.dataset.date || '2000-01-01');
+        const dateB = new Date(b.dataset.date || '2000-01-01');
+        return dateB - dateA; // Newest first
+    });
+    
+    posts.forEach(post => postsContainer.appendChild(post));
+}
+
+// Sort on page load
+sortPostsByDate();
+
 // Category filtering
 const categoryBtns = document.querySelectorAll('.category-btn');
 const posts = document.querySelectorAll('.post-preview');
