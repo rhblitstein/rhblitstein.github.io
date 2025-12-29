@@ -1,0 +1,1369 @@
+{
+  "stats": {
+    "total_miles": 1401.1,
+    "total_trips": 151,
+    "unique_rivers": 17,
+    "commercial_miles": 394.0
+  },
+  "trips": [
+    {
+      "date": "Nov 20, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood",
+      "trip_type": "Private",
+      "flow": "700 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Nov 12, 2025",
+      "river": "Arkansas River",
+      "section": "Parkdale to Centennial Park",
+      "trip_type": "Private",
+      "flow": "320 cfs",
+      "rating": "IV",
+      "miles": "10"
+    },
+    {
+      "date": "Nov 11, 2025",
+      "river": "Arkansas River",
+      "section": "Pinnacle to Parkdale",
+      "trip_type": "Private",
+      "flow": "300 cfs",
+      "rating": "III",
+      "miles": "9"
+    },
+    {
+      "date": "Nov 10, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Private",
+      "flow": "770 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Nov 08, 2025",
+      "river": "Arkansas River",
+      "section": "Pinnacle to Parkdale",
+      "trip_type": "Private",
+      "flow": "320 cfs",
+      "rating": "III",
+      "miles": "9"
+    },
+    {
+      "date": "Nov 07, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Grizz x2",
+      "trip_type": "Private",
+      "flow": "810 cfs",
+      "rating": "III",
+      "miles": "4"
+    },
+    {
+      "date": "Oct 19, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Masons",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Oct 18, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Masons",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Oct 13, 2025",
+      "river": "Youghigheny River",
+      "section": "Upper Yough",
+      "trip_type": "Private",
+      "flow": "2.1'",
+      "rating": "IV-V",
+      "miles": "10"
+    },
+    {
+      "date": "Oct 12, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Masons ",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Oct 11, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Masons ",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Oct 10, 2025",
+      "river": "Youghigheny River",
+      "section": "Upper Yough",
+      "trip_type": "Private",
+      "flow": "2.1'",
+      "rating": "IV-V",
+      "miles": "10"
+    },
+    {
+      "date": "Oct 05, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Masons",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Oct 03, 2025",
+      "river": "Gauley River ",
+      "section": "Upper G to Masons",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Sep 28, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Upper Swiss",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "26"
+    },
+    {
+      "date": "Sep 27, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Masons",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Sep 27, 2025",
+      "river": "New River",
+      "section": "Cunard to Fayette",
+      "trip_type": "Private",
+      "flow": "1'",
+      "rating": "III-IV",
+      "miles": "7"
+    },
+    {
+      "date": "Sep 26, 2025",
+      "river": "Gauley River",
+      "section": "Upper G to Masons",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Sep 21, 2025",
+      "river": "Gauley River",
+      "section": "Upper Gauley to Masons ",
+      "trip_type": "Private",
+      "flow": "2800 cfs",
+      "rating": "IV-V",
+      "miles": "12"
+    },
+    {
+      "date": "Sep 07, 2025",
+      "river": "Salmon River",
+      "section": "Corn Creek to Carey Creek",
+      "trip_type": "Private",
+      "flow": "2100 cfs",
+      "rating": "III-IV",
+      "miles": "80"
+    },
+    {
+      "date": "Aug 31, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Grizz",
+      "trip_type": "Private",
+      "flow": "1300 cfs",
+      "rating": "III",
+      "miles": "2"
+    },
+    {
+      "date": "Aug 30, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1350 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 28, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Grizz x2",
+      "trip_type": "Private",
+      "flow": "1210 cfs",
+      "rating": "III",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 26, 2025",
+      "river": "Colorado River",
+      "section": "Gore Canyon ",
+      "trip_type": "Private",
+      "flow": "1100 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Aug 22, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1380 cfs",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 21, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1330 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 19, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1320 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 16, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1360 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 15, 2025",
+      "river": "Arkansas River ",
+      "section": "Fish to Hecla",
+      "trip_type": "Commercial",
+      "flow": "619 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Aug 13, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1100 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 12, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1330 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 12, 2025",
+      "river": "Colorado River ",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1100 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 11, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty",
+      "trip_type": "Commercial",
+      "flow": "1170 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 11, 2025",
+      "river": "Colorado River ",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1170 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 10, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty",
+      "trip_type": "Commercial",
+      "flow": "1160 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 10, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1170 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 09, 2025",
+      "river": "Arkansas River",
+      "section": "Ruby to Hecla ",
+      "trip_type": "Private",
+      "flow": "636 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 09, 2025",
+      "river": "Arkansas River",
+      "section": "Numbers to RR",
+      "trip_type": "Private",
+      "flow": "550 cfs",
+      "rating": "III-IV",
+      "miles": "6.4"
+    },
+    {
+      "date": "Aug 08, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty",
+      "trip_type": "Commercial",
+      "flow": "1360 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 08, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1380 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 05, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1400 cfs",
+      "rating": "II",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 04, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1450 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 03, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1520 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 03, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood",
+      "trip_type": "Private",
+      "flow": "1550 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 02, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty",
+      "trip_type": "Commercial",
+      "flow": "1360 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 02, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty",
+      "trip_type": "Commercial",
+      "flow": "1400 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 02, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1450 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 01, 2025",
+      "river": "Colorado River ",
+      "section": "Lyons to Dotty",
+      "trip_type": "Commercial",
+      "flow": "1450 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 01, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1450 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Aug 01, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Grizz x 3",
+      "trip_type": "Commercial",
+      "flow": "1560 cfs",
+      "rating": "III",
+      "miles": "6"
+    },
+    {
+      "date": "Jul 31, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1560 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 30, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1440 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 30, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Grizz x3",
+      "trip_type": "Commercial",
+      "flow": "1500 cfs",
+      "rating": "III",
+      "miles": "6"
+    },
+    {
+      "date": "Jul 29, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1250 cfs ",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Jul 29, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "1250 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Jul 28, 2025",
+      "river": "Arkansas River",
+      "section": "Ruby to Hecla ",
+      "trip_type": "Private",
+      "flow": "588 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 27, 2025",
+      "river": "Arkansas River",
+      "section": "Ruby to Hecla ",
+      "trip_type": "Private",
+      "flow": "570 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 26, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1480 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 26, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1480 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 25, 2025",
+      "river": "Arkansas River ",
+      "section": "Ruby to Hecla ",
+      "trip_type": "Private",
+      "flow": "620 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 25, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla ",
+      "trip_type": "Commercial",
+      "flow": "625 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 24, 2025",
+      "river": "Arkansas River ",
+      "section": "Fish to Hecla ",
+      "trip_type": "Commercial",
+      "flow": "640 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 23, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1450 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 21, 2025",
+      "river": "Arkansas River",
+      "section": "Numbers to RR",
+      "trip_type": "Private",
+      "flow": "600 cfs",
+      "rating": "III-IV",
+      "miles": "6.4"
+    },
+    {
+      "date": "Jul 21, 2025",
+      "river": "Arkansas River",
+      "section": "Numbers to RR ",
+      "trip_type": "Private",
+      "flow": "600 cfs",
+      "rating": "III-IV",
+      "miles": "6.4"
+    },
+    {
+      "date": "Jul 19, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1420 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 19, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Private",
+      "flow": "1420 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 18, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Commercial",
+      "flow": "692 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 17, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Private",
+      "flow": "1420 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 16, 2025",
+      "river": "Colorado River",
+      "section": "Sho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1400 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 15, 2025",
+      "river": "Colorado River ",
+      "section": "Sho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1350 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 13, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Commercial",
+      "flow": "700 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 12, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty ",
+      "trip_type": "Commercial",
+      "flow": "900 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Jul 11, 2025",
+      "river": "Colorado River",
+      "section": "Fish to Hecla ",
+      "trip_type": "Commercial",
+      "flow": "670 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 10, 2025",
+      "river": "Colorado River",
+      "section": "Shosho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1400 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 09, 2025",
+      "river": "Colorado River",
+      "section": "Shosho to Glenwood ",
+      "trip_type": "Commercial",
+      "flow": "1400 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 08, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Commercial",
+      "flow": "640 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 07, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "660 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 05, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Commercial",
+      "flow": "730 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 05, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Commercial",
+      "flow": "730 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 04, 2025",
+      "river": "Colorado River",
+      "section": "Lyons to Dotty",
+      "trip_type": "Commercial",
+      "flow": "875 cfs",
+      "rating": "II",
+      "miles": "4"
+    },
+    {
+      "date": "Jul 04, 2025",
+      "river": "Arkansas River",
+      "section": "Browns to Hecla",
+      "trip_type": "Private",
+      "flow": "760 cfs",
+      "rating": "II",
+      "miles": "10"
+    },
+    {
+      "date": "Jul 03, 2025",
+      "river": "Colorado River",
+      "section": "Shosho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1500 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 02, 2025",
+      "river": "Colorado River ",
+      "section": "Shosho to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1500 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jul 01, 2025",
+      "river": "Colorado River ",
+      "section": "Shoshone to Glenwood",
+      "trip_type": "Commercial",
+      "flow": "1500 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 29, 2025",
+      "river": "Arkansas River ",
+      "section": "Browns Canyon",
+      "trip_type": "Private",
+      "flow": "830 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jun 29, 2025",
+      "river": "Arkansas River ",
+      "section": "Numbers",
+      "trip_type": "Private",
+      "flow": "720 cfs",
+      "rating": "III-IV",
+      "miles": "6.4"
+    },
+    {
+      "date": "Jun 27, 2025",
+      "river": "Arkansas River ",
+      "section": "Numbers! ",
+      "trip_type": "Private",
+      "flow": "750 cfs",
+      "rating": "III-IV",
+      "miles": "6.4"
+    },
+    {
+      "date": "Jun 26, 2025",
+      "river": "Arkansas River",
+      "section": "Browns Canyon ",
+      "trip_type": "Private ",
+      "flow": "900 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jun 24, 2025",
+      "river": "Colorado River ",
+      "section": "Shoshone (to Grizzly)",
+      "trip_type": "Private ",
+      "flow": "2200 cfs",
+      "rating": "III",
+      "miles": "4"
+    },
+    {
+      "date": "Jun 24, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Commercial",
+      "flow": "960 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 23, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Commercial",
+      "flow": "1100 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 22, 2025",
+      "river": "Colorado  River",
+      "section": "Shoshone to Grizzly",
+      "trip_type": "Private ",
+      "flow": "2000 cfs",
+      "rating": "III",
+      "miles": "12"
+    },
+    {
+      "date": "Jun 21, 2025",
+      "river": "Arkansas River",
+      "section": "Browns Canyon (Ruby to Hecla)",
+      "trip_type": "Private ",
+      "flow": "1500 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 19, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Commercial",
+      "flow": "1300 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 18, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Commercial",
+      "flow": "1300 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 16, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle ",
+      "trip_type": "Commercial",
+      "flow": "1700 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 14, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "1700 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 14, 2025",
+      "river": "Arkansas River",
+      "section": "Milk Run ",
+      "trip_type": "Private ",
+      "flow": "1500 cfs",
+      "rating": "II",
+      "miles": "2"
+    },
+    {
+      "date": "Jun 13, 2025",
+      "river": "Arkansas River",
+      "section": "Hayden Meadows",
+      "trip_type": "Private",
+      "flow": "543 cfs",
+      "rating": "II",
+      "miles": "7.2"
+    },
+    {
+      "date": "Jun 12, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Commercial",
+      "flow": "1700 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 11, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "1800 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 10, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "1800 cfs",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 10, 2025",
+      "river": "Clear Creek",
+      "section": "Idaho Springs to Kermits",
+      "trip_type": "Private",
+      "flow": "600 cfs",
+      "rating": "III",
+      "miles": "4.7"
+    },
+    {
+      "date": "Jun 09, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 09, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 09, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 08, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 08, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 07, 2025",
+      "river": "Arkansas River",
+      "section": "Miners to Elephant Rock",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "3.5"
+    },
+    {
+      "date": "Jun 06, 2025",
+      "river": "Eagle River",
+      "section": "Dowd Chute to Bob's Bridge",
+      "trip_type": "Private",
+      "flow": "3.8'",
+      "rating": "IV",
+      "miles": "8"
+    },
+    {
+      "date": "Jun 05, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "2000 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Jun 04, 2025",
+      "river": "Arkansas River",
+      "section": "Browns Canyon",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "20"
+    },
+    {
+      "date": "Jun 03, 2025",
+      "river": "Arkansas River",
+      "section": "Browns Canyon",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "20"
+    },
+    {
+      "date": "Jun 02, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "20"
+    },
+    {
+      "date": "May 31, 2025",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "1500 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "May 30, 2025",
+      "river": "Colorado River",
+      "section": "Shosho to Grizz",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "6"
+    },
+    {
+      "date": "May 29, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "May 29, 2025",
+      "river": "Gore Creek",
+      "section": "Upper Gore",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": ""
+    },
+    {
+      "date": "May 29, 2025",
+      "river": "Eagle River",
+      "section": "Upper Eagle",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": ""
+    },
+    {
+      "date": "May 28, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "16"
+    },
+    {
+      "date": "May 27, 2025",
+      "river": "Colorado River",
+      "section": "Upper C - Cottonwood to Dotty",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "6"
+    },
+    {
+      "date": "May 27, 2025",
+      "river": "Colorado River",
+      "section": "Upper C - Lyons to Dotty",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "4"
+    },
+    {
+      "date": "May 26, 2025",
+      "river": "Colorado River",
+      "section": "Shosho to Grizz",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "2"
+    },
+    {
+      "date": "May 26, 2025",
+      "river": "Colorado River",
+      "section": "Shosho to Glenwood",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "May 26, 2025",
+      "river": "Colorado River",
+      "section": "Upper C - Lyons to Dotty",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "4"
+    },
+    {
+      "date": "May 25, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Training",
+      "flow": "",
+      "rating": "",
+      "miles": "24"
+    },
+    {
+      "date": "May 24, 2025",
+      "river": "Eagle River",
+      "section": "Lower Eagle",
+      "trip_type": "Training",
+      "flow": "885cfs",
+      "rating": "",
+      "miles": "24"
+    },
+    {
+      "date": "May 23, 2025",
+      "river": "Clear Creek",
+      "section": "Lower Canyon",
+      "trip_type": "Private",
+      "flow": "300 cfs",
+      "rating": "IV+",
+      "miles": "5.4"
+    },
+    {
+      "date": "Aug 08, 2024",
+      "river": "Colorado River",
+      "section": "Pumphouse to State Bridge",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "III",
+      "miles": "15"
+    },
+    {
+      "date": "Jun 05, 2022",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "10"
+    },
+    {
+      "date": "Jun 04, 2022",
+      "river": "Arkansas River",
+      "section": "Salida East to Rincon",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "II (III)",
+      "miles": "10"
+    },
+    {
+      "date": "Jun 03, 2022",
+      "river": "Arkansas River",
+      "section": "Salida East to Rincon",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "II (III)",
+      "miles": "10"
+    },
+    {
+      "date": "Jun 02, 2022",
+      "river": "Arkansas River",
+      "section": "Salida East to Rincon",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "II (III)",
+      "miles": "10"
+    },
+    {
+      "date": "Oct 04, 2021",
+      "river": "Gunnison River",
+      "section": "Gunnison Gorge",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "III",
+      "miles": "13"
+    },
+    {
+      "date": "Oct 03, 2021",
+      "river": "Arkansas River",
+      "section": "Ruby to Hecla",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 15, 2021",
+      "river": "Millers River",
+      "section": "",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "II - IV",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 17, 2020",
+      "river": "Arkansas River",
+      "section": "WA to Fish",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "3.5"
+    },
+    {
+      "date": "Aug 02, 2020",
+      "river": "Colorado River",
+      "section": "Shoshone",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "II - IV",
+      "miles": "9"
+    },
+    {
+      "date": "Feb 20, 2020",
+      "river": "Salt River",
+      "section": "US 60 to Hwy 288 above Roosevelt Reservoir",
+      "trip_type": "Private",
+      "flow": "-",
+      "rating": "II - IV",
+      "miles": "58.4"
+    },
+    {
+      "date": "Oct 01, 2019",
+      "river": "Rio Grande",
+      "section": "Del Norte",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "II",
+      "miles": ""
+    },
+    {
+      "date": "Sep 07, 2019",
+      "river": "Arkansas River",
+      "section": "WA to Fish",
+      "trip_type": "Private",
+      "flow": "400 cfs",
+      "rating": "III",
+      "miles": "3.5"
+    },
+    {
+      "date": "Sep 01, 2019",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "400 CFS",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Aug 08, 2019",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "600 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "Aug 06, 2019",
+      "river": "Arkansas River",
+      "section": "Ruby to Hecla",
+      "trip_type": "Private",
+      "flow": "600 cfs",
+      "rating": "III",
+      "miles": "8"
+    },
+    {
+      "date": "Aug 01, 2019",
+      "river": "Arkansas River",
+      "section": "WA to Stone Bridge",
+      "trip_type": "Private",
+      "flow": "1000 cfs",
+      "rating": "III",
+      "miles": "19.5"
+    },
+    {
+      "date": "Aug 01, 2019",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "1000 cfs",
+      "rating": "III",
+      "miles": "10"
+    },
+    {
+      "date": "May 16, 2019",
+      "river": "Arkansas River",
+      "section": "Pinnacle to Parkdale",
+      "trip_type": "Private",
+      "flow": "3000cfs",
+      "rating": "III",
+      "miles": "17.2"
+    },
+    {
+      "date": "Jun 20, 2015",
+      "river": "Arkansas River",
+      "section": "Fish to Hecla",
+      "trip_type": "Private",
+      "flow": "3200cfs",
+      "rating": "",
+      "miles": "10"
+    },
+    {
+      "date": "May 05, 2015",
+      "river": "Arkansas River",
+      "section": "Pinnacle to Parkdale",
+      "trip_type": "Private",
+      "flow": "2000cfs",
+      "rating": "",
+      "miles": "17.2"
+    },
+    {
+      "date": "Jul 20, 2014",
+      "river": "Arkansas River",
+      "section": "Fish to Stone",
+      "trip_type": "Private",
+      "flow": "",
+      "rating": "",
+      "miles": "13"
+    }
+  ]
+}
