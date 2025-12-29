@@ -5,8 +5,8 @@ const config = {
     runnerSpeed: 0,
     gameSpeed: 6,
     gameSpeedIncrement: 0.001,
-    maxGameSpeed: 12,
-    obstacleSpawnRate: 0.008,  // Reduced from 0.015 for fewer obstacles
+    maxGameSpeed: 15,
+    obstacleSpawnRate: 0.015,  // Reduced from 0.015 for fewer obstacles
     groundHeight: 80,
 };
 
