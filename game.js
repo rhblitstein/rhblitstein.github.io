@@ -1,12 +1,12 @@
 // Game configuration
 const config = {
     gravity: 0.6,
-    jumpForce: -12,
+    jumpForce: -14,  // Increased from -12 for higher/longer jumps
     runnerSpeed: 0,
-    gameSpeed: 1,
+    gameSpeed: 6,
     gameSpeedIncrement: 0.001,
-    maxGameSpeed: 6,
-    obstacleSpawnRate: 0.015,
+    maxGameSpeed: 12,
+    obstacleSpawnRate: 0.008,  // Reduced from 0.015 for fewer obstacles
     groundHeight: 80,
 };
 
@@ -305,8 +305,8 @@ function gameLoop() {
 // Update score
 function updateScore() {
     const miles = gameState.score;
-    document.getElementById('score').textContent = `${miles} miles`;
-    document.getElementById('high-score').textContent = `Best: ${gameState.highScore} miles`;
+    document.getElementById('score').textContent = `${miles} mile${miles !== 1 ? 's' : ''}`;
+    document.getElementById('high-score').textContent = `Best: ${gameState.highScore} mile${gameState.highScore !== 1 ? 's' : ''}`;
 }
 
 // Start game
@@ -337,7 +337,7 @@ function gameOver() {
     }
     
     const miles = gameState.score;
-    document.getElementById('final-score').textContent = `${miles} miles`;
+    document.getElementById('final-score').textContent = `${miles} mile${miles !== 1 ? 's' : ''}`;
     document.getElementById('game-over-screen').classList.remove('hidden');
 }
 
@@ -363,13 +363,41 @@ document.addEventListener('keydown', (e) => {
 
 // Touch/click support for mobile
 canvas.addEventListener('click', () => {
-    if (gameState.isPlaying && !gameState.isGameOver) {
+    if (!gameState.isPlaying && !gameState.isGameOver) {
+        startGame();
+    } else if (gameState.isGameOver) {
+        startGame();
+    } else if (gameState.isPlaying) {
         runner.jump();
     }
 });
 
+// Also add touchstart for better mobile responsiveness
+canvas.addEventListener('touchstart', (e) => {
+    e.preventDefault(); // Prevent scrolling
+    if (!gameState.isPlaying && !gameState.isGameOver) {
+        startGame();
+    } else if (gameState.isGameOver) {
+        startGame();
+    } else if (gameState.isPlaying) {
+        runner.jump();
+    }
+});
+
+// Add click handlers to the screen overlays since they block canvas clicks
+document.getElementById('start-screen').addEventListener('click', () => {
+    startGame();
+});
+
+document.getElementById('game-over-screen').addEventListener('click', () => {
+    if (gameState.isGameOver) {
+        startGame();
+    }
+});
+
 // Blog button
-document.getElementById('blog-btn').addEventListener('click', () => {
+document.getElementById('blog-btn').addEventListener('click', (e) => {
+    e.stopPropagation(); // Don't trigger start game
     window.location.href = './blog/index.html';
 });
 
