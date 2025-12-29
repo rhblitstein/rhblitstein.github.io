@@ -389,7 +389,19 @@ document.getElementById('start-screen').addEventListener('click', () => {
     startGame();
 });
 
+document.getElementById('start-screen').addEventListener('touchstart', (e) => {
+    e.preventDefault();
+    startGame();
+});
+
 document.getElementById('game-over-screen').addEventListener('click', () => {
+    if (gameState.isGameOver) {
+        startGame();
+    }
+});
+
+document.getElementById('game-over-screen').addEventListener('touchstart', (e) => {
+    e.preventDefault();
     if (gameState.isGameOver) {
         startGame();
     }
@@ -398,6 +410,12 @@ document.getElementById('game-over-screen').addEventListener('click', () => {
 // Blog button
 document.getElementById('blog-btn').addEventListener('click', (e) => {
     e.stopPropagation(); // Don't trigger start game
+    window.location.href = './blog/index.html';
+});
+
+document.getElementById('blog-btn').addEventListener('touchstart', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
     window.location.href = './blog/index.html';
 });
 
